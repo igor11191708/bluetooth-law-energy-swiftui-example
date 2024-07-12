@@ -12,6 +12,7 @@
 		788568212C419B010044FE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788568202C419B010044FE47 /* Assets.xcassets */; };
 		788568252C419B010044FE47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788568242C419B010044FE47 /* Preview Assets.xcassets */; };
 		7885682D2C419BD40044FE47 /* bluetooth-law-energy-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 7885682C2C419BD40044FE47 /* bluetooth-law-energy-swift */; };
+		7885682F2C419C5C0044FE47 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7885682E2C419C5C0044FE47 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		788568202C419B010044FE47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		788568222C419B010044FE47 /* bluetooth_law_energy_example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bluetooth_law_energy_example.entitlements; sourceTree = "<group>"; };
 		788568242C419B010044FE47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7885682E2C419C5C0044FE47 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		788568102C419B000044FE47 = {
 			isa = PBXGroup;
 			children = (
+				7885682E2C419C5C0044FE47 /* README.md */,
 				7885681B2C419B000044FE47 /* bluetooth-law-energy_example */,
 				7885681A2C419B000044FE47 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7885682F2C419C5C0044FE47 /* README.md in Resources */,
 				788568252C419B010044FE47 /* Preview Assets.xcassets in Resources */,
 				788568212C419B010044FE47 /* Assets.xcassets in Resources */,
 			);
