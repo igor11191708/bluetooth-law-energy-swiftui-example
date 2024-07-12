@@ -11,6 +11,7 @@
 		7885681F2C419B000044FE47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885681E2C419B000044FE47 /* ContentView.swift */; };
 		788568212C419B010044FE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788568202C419B010044FE47 /* Assets.xcassets */; };
 		788568252C419B010044FE47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788568242C419B010044FE47 /* Preview Assets.xcassets */; };
+		7885682D2C419BD40044FE47 /* bluetooth-law-energy-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 7885682C2C419BD40044FE47 /* bluetooth-law-energy-swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7885682D2C419BD40044FE47 /* bluetooth-law-energy-swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,9 @@
 			dependencies = (
 			);
 			name = "bluetooth-law-energy_example";
+			packageProductDependencies = (
+				7885682C2C419BD40044FE47 /* bluetooth-law-energy-swift */,
+			);
 			productName = "bluetooth-law-energy_example";
 			productReference = 788568192C419B000044FE47 /* bluetooth-law-energy_example.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +118,9 @@
 				Base,
 			);
 			mainGroup = 788568102C419B000044FE47;
+			packageReferences = (
+				7885682B2C419BD40044FE47 /* XCRemoteSwiftPackageReference "bluetooth-law-energy-swift" */,
+			);
 			productRefGroup = 7885681A2C419B000044FE47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -359,6 +367,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7885682B2C419BD40044FE47 /* XCRemoteSwiftPackageReference "bluetooth-law-energy-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/The-Igor/bluetooth-law-energy-swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7885682C2C419BD40044FE47 /* bluetooth-law-energy-swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7885682B2C419BD40044FE47 /* XCRemoteSwiftPackageReference "bluetooth-law-energy-swift" */;
+			productName = "bluetooth-law-energy-swift";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 788568112C419B000044FE47 /* Project object */;
 }

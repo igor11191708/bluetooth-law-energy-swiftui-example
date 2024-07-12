@@ -1,0 +1,15 @@
+{
+  "originHash" : "0469e668405dbfef549f52cd3f8097d6fde9b0d77f90ead66242fedc3a4e8a38",
+  "pins" : [
+    {
+      "identity" : "bluetooth-law-energy-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Igor/bluetooth-law-energy-swift",
+      "state" : {
+        "branch" : "main",
+        "revision" : "629e4717d8af66675fe751bcd976c71470cd571f"
+      }
+    }
+  ],
+  "version" : 3
+}
