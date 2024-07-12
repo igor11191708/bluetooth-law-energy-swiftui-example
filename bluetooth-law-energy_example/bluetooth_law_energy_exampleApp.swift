@@ -8,10 +8,24 @@
 import SwiftUI
 
 @main
-struct bluetooth_law_energy_exampleApp: App {
+struct PicookApp: App {
+    
+    @State var isOne: Bool = true
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VStack(alignment: .leading, spacing : 15){
+                Group{
+                    Toggle("Destroy manager", isOn: $isOne)
+                        .font(.title3)
+     
+                    if isOne {
+                        ContentView()
+                    }
+                    if !isOne{ Spacer() }
+                
+                }.padding(.horizontal)
+            }.padding(.top)
         }
     }
 }
