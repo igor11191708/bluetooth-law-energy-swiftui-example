@@ -8,6 +8,7 @@
 import SwiftUI
 import Combine
 import bluetooth_law_energy_swift
+import CoreBluetooth
 
 /// A SwiftUI view that manages Bluetooth LE operations and displays relevant information.
 struct ContentView: View {
@@ -111,6 +112,7 @@ struct ContentView: View {
     
     /// Opens the Bluetooth settings.
     private func openBluetoothSettings() {
+        #if os(iOS)
         guard let bluetoothSettingsURL = URL(string: "App-Prefs:root=Bluetooth") else {
             return
         }
@@ -119,16 +121,27 @@ struct ContentView: View {
         } else {
             openSettings()
         }
+        #elseif os(macOS)
+        if let bluetoothPrefPane = URL(string: "x-apple.systempreferences:com.apple.Bluetooth") {
+            NSWorkspace.shared.open(bluetoothPrefPane)
+        }
+        #endif
     }
     
     /// Opens the app settings.
     private func openSettings() {
+        #if os(iOS)
         guard let settingsURL = URL(string: UIApplication.openSettingsURLString) else {
             return
         }
         if UIApplication.shared.canOpenURL(settingsURL) {
             UIApplication.shared.open(settingsURL)
         }
+        #elseif os(macOS)
+        if let appSettings = URL(string: "x-apple.systempreferences:com.apple.preferences") {
+            NSWorkspace.shared.open(appSettings)
+        }
+        #endif
     }
 }
 
@@ -196,13 +209,17 @@ struct BLEView: View {
     /// Fetches the list of Bluetooth peripherals.
     private func fetchPeripherals() async {
         for await cbPeripherals in manager.peripheralsStream {
-            peripherals = cbPeripherals.compactMap { $0.name }.map { Peripheral(name: $0) }
+            peripherals = cbPeripherals.compactMap { if let name = $0.name { return Peripheral(name: name, peripheral: $0) } else { return nil } }
         }
     }
 }
 
 /// A model representing a Bluetooth peripheral.
 struct Peripheral: Identifiable, Hashable {
+    
     let id = UUID() // Unique identifier for the peripheral
+    
     let name: String // Name of the peripheral
+    
+    let peripheral: CBPeripheral
 }
