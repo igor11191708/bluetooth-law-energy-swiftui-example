@@ -122,12 +122,12 @@ struct ContentView: View {
             openSettings()
         }
         #elseif os(macOS)
-        if let bluetoothPrefPane = URL(string: "x-apple.systempreferences:com.apple.Bluetooth") {
-            NSWorkspace.shared.open(bluetoothPrefPane)
+        if let bluetoothSettingsURL = URL(string: "x-apple.systempreferences:com.apple.Bluetooth") {
+            NSWorkspace.shared.open(bluetoothSettingsURL)
         }
         #endif
     }
-    
+
     /// Opens the app settings.
     private func openSettings() {
         #if os(iOS)
@@ -138,8 +138,15 @@ struct ContentView: View {
             UIApplication.shared.open(settingsURL)
         }
         #elseif os(macOS)
-        if let appSettings = URL(string: "x-apple.systempreferences:com.apple.preferences") {
-            NSWorkspace.shared.open(appSettings)
+        // Try to open Bluetooth privacy settings
+        if let bluetoothPrivacySettingsURL = URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_Bluetooth") {
+            if NSWorkspace.shared.open(bluetoothPrivacySettingsURL) {
+                return
+            }
+        }
+        // Fall back to opening System Preferences
+        if let appSettingsURL = URL(string: "x-apple.systempreferences:com.apple.preferences") {
+            NSWorkspace.shared.open(appSettingsURL)
         }
         #endif
     }
