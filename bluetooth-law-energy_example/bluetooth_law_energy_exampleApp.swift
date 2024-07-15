@@ -16,8 +16,11 @@ struct PicookApp: App {
         WindowGroup {
             VStack(alignment: .leading, spacing : 15){
                 Group{
-                    Toggle("Destroy manager", isOn: $isOne)
-                        .font(.title3)
+                    HStack{
+                        Toggle("Destroy manager", isOn: $isOne)
+                            .font(.title3)
+                        Spacer()
+                    }
      
                     if isOne {
                         ContentView()

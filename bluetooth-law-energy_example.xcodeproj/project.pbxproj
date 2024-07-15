@@ -11,9 +11,10 @@
 		7885681F2C419B000044FE47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885681E2C419B000044FE47 /* ContentView.swift */; };
 		788568212C419B010044FE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788568202C419B010044FE47 /* Assets.xcassets */; };
 		788568252C419B010044FE47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788568242C419B010044FE47 /* Preview Assets.xcassets */; };
-		7885682D2C419BD40044FE47 /* bluetooth-law-energy-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 7885682C2C419BD40044FE47 /* bluetooth-law-energy-swift */; };
 		7885682F2C419C5C0044FE47 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7885682E2C419C5C0044FE47 /* README.md */; };
 		788568322C4515B30044FE47 /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788568312C4515B30044FE47 /* Peripheral.swift */; };
+		788568352C451E1D0044FE47 /* bluetooth-law-energy-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 788568342C451E1D0044FE47 /* bluetooth-law-energy-swift */; };
+		788568382C45214C0044FE47 /* bluetooth-law-energy-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 788568372C45214C0044FE47 /* bluetooth-law-energy-swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7885682D2C419BD40044FE47 /* bluetooth-law-energy-swift in Frameworks */,
+				788568382C45214C0044FE47 /* bluetooth-law-energy-swift in Frameworks */,
+				788568352C451E1D0044FE47 /* bluetooth-law-energy-swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +104,8 @@
 			);
 			name = "bluetooth-law-energy_example";
 			packageProductDependencies = (
-				7885682C2C419BD40044FE47 /* bluetooth-law-energy-swift */,
+				788568342C451E1D0044FE47 /* bluetooth-law-energy-swift */,
+				788568372C45214C0044FE47 /* bluetooth-law-energy-swift */,
 			);
 			productName = "bluetooth-law-energy_example";
 			productReference = 788568192C419B000044FE47 /* bluetooth-law-energy_example.app */;
@@ -133,7 +136,7 @@
 			);
 			mainGroup = 788568102C419B000044FE47;
 			packageReferences = (
-				7885682B2C419BD40044FE47 /* XCRemoteSwiftPackageReference "bluetooth-law-energy-swift" */,
+				788568362C45214C0044FE47 /* XCRemoteSwiftPackageReference "bluetooth-law-energy-swift" */,
 			);
 			productRefGroup = 7885681A2C419B000044FE47 /* Products */;
 			projectDirPath = "";
@@ -387,20 +390,24 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7885682B2C419BD40044FE47 /* XCRemoteSwiftPackageReference "bluetooth-law-energy-swift" */ = {
+		788568362C45214C0044FE47 /* XCRemoteSwiftPackageReference "bluetooth-law-energy-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/The-Igor/bluetooth-law-energy-swift";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7885682C2C419BD40044FE47 /* bluetooth-law-energy-swift */ = {
+		788568342C451E1D0044FE47 /* bluetooth-law-energy-swift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7885682B2C419BD40044FE47 /* XCRemoteSwiftPackageReference "bluetooth-law-energy-swift" */;
+			productName = "bluetooth-law-energy-swift";
+		};
+		788568372C45214C0044FE47 /* bluetooth-law-energy-swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 788568362C45214C0044FE47 /* XCRemoteSwiftPackageReference "bluetooth-law-energy-swift" */;
 			productName = "bluetooth-law-energy-swift";
 		};
 /* End XCSwiftPackageProductDependency section */
