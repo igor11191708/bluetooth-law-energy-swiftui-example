@@ -11,7 +11,7 @@ This example project demonstrates how to use the bluetooth-law-energy-swift pack
 
 | iOS | macOS |
 |:-------:|:-------:|
-| ![iOS 14](https://github.com/The-Igor/bluetooth-law-energy-swift/blob/main/img/ble_manager.jpeg) | ![macOS 11](https://github.com/The-Igor/bluetooth-law-energy-swift/blob/main/img/bluetoth_le.gif) |
+| ![iOS 14](https://github.com/The-Igor/bluetooth-law-energy-swift/blob/main/img/ble_manager.jpeg) | ![macOS 11](https://github.com/The-Igor/bluetooth-law-energy-swift/blob/main/img/ble_mac.png) |
 
 ## Granting Bluetooth Access for macOS
 

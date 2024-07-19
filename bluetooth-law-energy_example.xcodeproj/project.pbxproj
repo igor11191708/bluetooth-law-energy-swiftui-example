@@ -3,18 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78157BC72C497734005669BC /* bluetooth-law-energy-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 78157BC62C497734005669BC /* bluetooth-law-energy-swift */; };
+		78288F7F2C4AD603003AA73B /* bluetooth-law-energy-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 78288F7E2C4AD603003AA73B /* bluetooth-law-energy-swift */; };
 		7885681D2C419B000044FE47 /* bluetooth_law_energy_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885681C2C419B000044FE47 /* bluetooth_law_energy_exampleApp.swift */; };
 		7885681F2C419B000044FE47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885681E2C419B000044FE47 /* ContentView.swift */; };
 		788568212C419B010044FE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788568202C419B010044FE47 /* Assets.xcassets */; };
 		788568252C419B010044FE47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788568242C419B010044FE47 /* Preview Assets.xcassets */; };
 		7885682F2C419C5C0044FE47 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7885682E2C419C5C0044FE47 /* README.md */; };
-		788568322C4515B30044FE47 /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788568312C4515B30044FE47 /* Peripheral.swift */; };
 		788568352C451E1D0044FE47 /* bluetooth-law-energy-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 788568342C451E1D0044FE47 /* bluetooth-law-energy-swift */; };
-		788568382C45214C0044FE47 /* bluetooth-law-energy-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 788568372C45214C0044FE47 /* bluetooth-law-energy-swift */; };
+		7885683B2C4530FA0044FE47 /* bluetooth-law-energy-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 7885683A2C4530FA0044FE47 /* bluetooth-law-energy-swift */; };
+		7885683E2C4565A80044FE47 /* fn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885683D2C4565A80044FE47 /* fn.swift */; };
+		788568422C45672B0044FE47 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788568412C45672B0044FE47 /* Indicator.swift */; };
+		788568472C4826D30044FE47 /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788568462C4826D30044FE47 /* Array+.swift */; };
+		7885684C2C49091F0044FE47 /* HeaderTpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885684B2C49091F0044FE47 /* HeaderTpl.swift */; };
+		7885684E2C491F2F0044FE47 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885684D2C491F2F0044FE47 /* CustomButtonView.swift */; };
+		788568502C49253B0044FE47 /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885684F2C49253B0044FE47 /* ServiceView.swift */; };
+		78F09D102C4A4E4D000D6439 /* Alert+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F09D0F2C4A4E4D000D6439 /* Alert+.swift */; };
+		78F09D132C4A4EDC000D6439 /* PeripheralsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F09D122C4A4EDC000D6439 /* PeripheralsView.swift */; };
+		78F09D152C4A4F23000D6439 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F09D142C4A4F23000D6439 /* ServicesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +35,15 @@
 		788568222C419B010044FE47 /* bluetooth_law_energy_example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bluetooth_law_energy_example.entitlements; sourceTree = "<group>"; };
 		788568242C419B010044FE47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7885682E2C419C5C0044FE47 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		788568312C4515B30044FE47 /* Peripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peripheral.swift; sourceTree = "<group>"; };
+		7885683D2C4565A80044FE47 /* fn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fn.swift; sourceTree = "<group>"; };
+		788568412C45672B0044FE47 /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		788568462C4826D30044FE47 /* Array+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+.swift"; sourceTree = "<group>"; };
+		7885684B2C49091F0044FE47 /* HeaderTpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTpl.swift; sourceTree = "<group>"; };
+		7885684D2C491F2F0044FE47 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		7885684F2C49253B0044FE47 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
+		78F09D0F2C4A4E4D000D6439 /* Alert+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+.swift"; sourceTree = "<group>"; };
+		78F09D122C4A4EDC000D6439 /* PeripheralsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralsView.swift; sourceTree = "<group>"; };
+		78F09D142C4A4F23000D6439 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788568382C45214C0044FE47 /* bluetooth-law-energy-swift in Frameworks */,
+				78157BC72C497734005669BC /* bluetooth-law-energy-swift in Frameworks */,
+				7885683B2C4530FA0044FE47 /* bluetooth-law-energy-swift in Frameworks */,
+				78288F7F2C4AD603003AA73B /* bluetooth-law-energy-swift in Frameworks */,
 				788568352C451E1D0044FE47 /* bluetooth-law-energy-swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +81,10 @@
 		7885681B2C419B000044FE47 /* bluetooth-law-energy_example */ = {
 			isa = PBXGroup;
 			children = (
-				788568302C4515A10044FE47 /* model */,
+				78F09D112C4A4EC7000D6439 /* tree */,
+				788568452C4826C50044FE47 /* ext */,
+				788568402C45671E0044FE47 /* view */,
+				7885683C2C45659F0044FE47 /* fn */,
 				7885681C2C419B000044FE47 /* bluetooth_law_energy_exampleApp.swift */,
 				7885681E2C419B000044FE47 /* ContentView.swift */,
 				788568202C419B010044FE47 /* Assets.xcassets */,
@@ -79,12 +102,41 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		788568302C4515A10044FE47 /* model */ = {
+		7885683C2C45659F0044FE47 /* fn */ = {
 			isa = PBXGroup;
 			children = (
-				788568312C4515B30044FE47 /* Peripheral.swift */,
+				7885683D2C4565A80044FE47 /* fn.swift */,
+				78F09D0F2C4A4E4D000D6439 /* Alert+.swift */,
 			);
-			path = model;
+			path = fn;
+			sourceTree = "<group>";
+		};
+		788568402C45671E0044FE47 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				788568412C45672B0044FE47 /* Indicator.swift */,
+				7885684B2C49091F0044FE47 /* HeaderTpl.swift */,
+				7885684D2C491F2F0044FE47 /* CustomButtonView.swift */,
+				7885684F2C49253B0044FE47 /* ServiceView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		788568452C4826C50044FE47 /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				788568462C4826D30044FE47 /* Array+.swift */,
+			);
+			path = ext;
+			sourceTree = "<group>";
+		};
+		78F09D112C4A4EC7000D6439 /* tree */ = {
+			isa = PBXGroup;
+			children = (
+				78F09D122C4A4EDC000D6439 /* PeripheralsView.swift */,
+				78F09D142C4A4F23000D6439 /* ServicesView.swift */,
+			);
+			path = tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +157,9 @@
 			name = "bluetooth-law-energy_example";
 			packageProductDependencies = (
 				788568342C451E1D0044FE47 /* bluetooth-law-energy-swift */,
-				788568372C45214C0044FE47 /* bluetooth-law-energy-swift */,
+				7885683A2C4530FA0044FE47 /* bluetooth-law-energy-swift */,
+				78157BC62C497734005669BC /* bluetooth-law-energy-swift */,
+				78288F7E2C4AD603003AA73B /* bluetooth-law-energy-swift */,
 			);
 			productName = "bluetooth-law-energy_example";
 			productReference = 788568192C419B000044FE47 /* bluetooth-law-energy_example.app */;
@@ -136,7 +190,7 @@
 			);
 			mainGroup = 788568102C419B000044FE47;
 			packageReferences = (
-				788568362C45214C0044FE47 /* XCRemoteSwiftPackageReference "bluetooth-law-energy-swift" */,
+				78288F7D2C4AD603003AA73B /* XCLocalSwiftPackageReference "../bluetooth-law-energy-swift" */,
 			);
 			productRefGroup = 7885681A2C419B000044FE47 /* Products */;
 			projectDirPath = "";
@@ -165,9 +219,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788568502C49253B0044FE47 /* ServiceView.swift in Sources */,
+				7885684C2C49091F0044FE47 /* HeaderTpl.swift in Sources */,
 				7885681F2C419B000044FE47 /* ContentView.swift in Sources */,
-				788568322C4515B30044FE47 /* Peripheral.swift in Sources */,
 				7885681D2C419B000044FE47 /* bluetooth_law_energy_exampleApp.swift in Sources */,
+				78F09D132C4A4EDC000D6439 /* PeripheralsView.swift in Sources */,
+				7885684E2C491F2F0044FE47 /* CustomButtonView.swift in Sources */,
+				78F09D102C4A4E4D000D6439 /* Alert+.swift in Sources */,
+				78F09D152C4A4F23000D6439 /* ServicesView.swift in Sources */,
+				788568422C45672B0044FE47 /* Indicator.swift in Sources */,
+				7885683E2C4565A80044FE47 /* fn.swift in Sources */,
+				788568472C4826D30044FE47 /* Array+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,25 +451,28 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		788568362C45214C0044FE47 /* XCRemoteSwiftPackageReference "bluetooth-law-energy-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/The-Igor/bluetooth-law-energy-swift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		78288F7D2C4AD603003AA73B /* XCLocalSwiftPackageReference "../bluetooth-law-energy-swift" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../bluetooth-law-energy-swift";
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		78157BC62C497734005669BC /* bluetooth-law-energy-swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "bluetooth-law-energy-swift";
+		};
+		78288F7E2C4AD603003AA73B /* bluetooth-law-energy-swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "bluetooth-law-energy-swift";
+		};
 		788568342C451E1D0044FE47 /* bluetooth-law-energy-swift */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = "bluetooth-law-energy-swift";
 		};
-		788568372C45214C0044FE47 /* bluetooth-law-energy-swift */ = {
+		7885683A2C4530FA0044FE47 /* bluetooth-law-energy-swift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 788568362C45214C0044FE47 /* XCRemoteSwiftPackageReference "bluetooth-law-energy-swift" */;
 			productName = "bluetooth-law-energy-swift";
 		};
 /* End XCSwiftPackageProductDependency section */

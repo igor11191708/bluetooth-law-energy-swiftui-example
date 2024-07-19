@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+
 @main
 struct PicookApp: App {
     
@@ -23,12 +25,13 @@ struct PicookApp: App {
                     }
      
                     if isOne {
-                        ContentView()
+                      ContentView()
                     }
                     if !isOne{ Spacer() }
                 
                 }.padding(.horizontal)
             }.padding(.top)
+             .preferredColorScheme(.dark)
         }
     }
 }
