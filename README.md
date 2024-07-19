@@ -9,9 +9,7 @@ This example project demonstrates how to use the bluetooth-law-energy-swift pack
 - **BLE Peripheral Scanning**: The app scans for and displays available BLE peripherals in real-time.
 - **User Alerts**: Alerts the user when Bluetooth is not authorized or powered on, and provides options to open the relevant settings.
 
-| iOS | macOS |
-|:-------:|:-------:|
-| ![iOS 14](https://github.com/The-Igor/bluetooth-law-energy-swift/blob/main/img/ble_manager.jpeg) | ![macOS 11](https://github.com/The-Igor/bluetooth-law-energy-swift/blob/main/img/ble_mac.png) |
+ ![macOS 11](https://github.com/The-Igor/bluetooth-law-energy-swift/blob/main/img/ble_mac.png) 
 
 ## Granting Bluetooth Access for macOS
 
@@ -75,3 +73,7 @@ To enable Bluetooth access for your macOS application, you need to modify the en
    ```
 
 This configuration ensures that your application has the necessary permissions to use Bluetooth on macOS.
+
+ ![iOS 14](https://github.com/The-Igor/bluetooth-law-energy-swift/blob/main/img/ble_manager.jpeg) 
+
+
