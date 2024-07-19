@@ -73,7 +73,3 @@ To enable Bluetooth access for your macOS application, you need to modify the en
    ```
 
 This configuration ensures that your application has the necessary permissions to use Bluetooth on macOS.
-
- ![iOS 14](https://github.com/The-Igor/bluetooth-law-energy-swift/blob/main/img/ble_manager.jpeg) 
-
-
