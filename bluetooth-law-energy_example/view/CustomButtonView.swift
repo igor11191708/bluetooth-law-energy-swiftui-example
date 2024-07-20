@@ -7,9 +7,10 @@
 
 import SwiftUI
 
+/// A SwiftUI view that displays a customizable button.
 struct CustomButtonView: View {
     let text: String
-    let color : Color = .green
+    let color: Color = .green
     let action: () -> Void
 
     var body: some View {

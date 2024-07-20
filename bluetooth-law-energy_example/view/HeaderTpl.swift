@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+/// A SwiftUI view that displays a header with a given ID.
 struct HeaderTpl: View {
+    /// The ID to display in the header.
     let id: Int
     
     var body: some View {
-        HStack{
+        HStack {
             Text("VIEW ID :: \(id)")
                 .lineLimit(1)
                 .padding()

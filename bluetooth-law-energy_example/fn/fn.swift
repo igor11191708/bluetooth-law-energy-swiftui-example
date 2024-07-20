@@ -2,7 +2,7 @@
 //  fn.swift
 //  bluetooth-law-energy_example
 //
-//  Created by Igor  on 15.07.24.
+//  Created by Igor on 15.07.24.
 //
 
 import Foundation
@@ -52,4 +52,3 @@ func openSettings() {
     }
     #endif
 }
-
