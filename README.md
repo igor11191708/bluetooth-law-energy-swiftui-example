@@ -11,7 +11,7 @@ This example project demonstrates how to use the bluetooth-law-energy-swift pack
 
  ![macOS 11](https://github.com/The-Igor/bluetooth-law-energy-swift/blob/main/img/ble_mac.png) 
  
-## [Important Notice] Running Bluetooth LE Code on Simulator
+## 🟡 Running Bluetooth LE Code on Simulator
 
 
 The example code provided for Bluetooth Low Energy (BLE) functionality utilizes CoreBluetooth, which requires actual Bluetooth hardware to operate. Simulators does not support Bluetooth functionalities as it lacks the necessary hardware capabilities.
