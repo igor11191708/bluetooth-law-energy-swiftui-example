@@ -10,6 +10,11 @@ This example project demonstrates how to use the bluetooth-law-energy-swift pack
 - **User Alerts**: Alerts the user when Bluetooth is not authorized or powered on, and provides options to open the relevant settings.
 
  ![macOS 11](https://github.com/The-Igor/bluetooth-law-energy-swift/blob/main/img/ble_mac.png) 
+ 
+## [Important Notice] Running Bluetooth LE Code on Simulator
+
+
+The example code provided for Bluetooth Low Energy (BLE) functionality utilizes CoreBluetooth, which requires actual Bluetooth hardware to operate. Simulators does not support Bluetooth functionalities as it lacks the necessary hardware capabilities.
 
 ## Granting Bluetooth Access for macOS
 
