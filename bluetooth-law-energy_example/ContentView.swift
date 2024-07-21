@@ -52,7 +52,7 @@ struct ContentView: View {
                 Toggle("First view", isOn: $isOne) // Toggle for the first view
                 #if os(macOS)
                 Toggle("Second view", isOn: $isTwo) // Toggle for the second view
-                Toggle("Third view", isOn: $isThree) // Toggle for the third view
+                Toggle("Other views", isOn: $isThree) // Toggle for the third view
                 #endif
             }
             .font(.title3)
