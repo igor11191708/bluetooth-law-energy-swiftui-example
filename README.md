@@ -7,7 +7,7 @@ This example project demonstrates how to use the bluetooth-law-energy-swift pack
 ## 🟡 Running Bluetooth LE Code on Simulator
 
 
-The example code provided for Bluetooth Low Energy (BLE) functionality utilizes CoreBluetooth, which requires actual Bluetooth hardware to operate. Simulators does not support Bluetooth functionalities as it lacks the necessary hardware capabilities.
+The example code provided for Bluetooth Low Energy (BLE) functionality utilizes CoreBluetooth, which requires actual Bluetooth hardware to operate like iPhone etc. Simulators does not support Bluetooth functionalities as it lacks the necessary hardware capabilities.
 
 ## Features
 - **Bluetooth Authorization and Power Management**: The app monitors and displays the Bluetooth authorization and power status, providing feedback through visual indicators.
