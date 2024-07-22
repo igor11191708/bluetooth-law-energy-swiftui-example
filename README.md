@@ -9,10 +9,8 @@ This example project demonstrates how to use the bluetooth-law-energy-swift pack
 
 The example code provided for Bluetooth Low Energy (BLE) functionality utilizes CoreBluetooth, which requires actual Bluetooth hardware to operate like iPhone etc. Simulators does not support Bluetooth functionalities as it lacks the necessary hardware capabilities.
 
-## Features
-- **Bluetooth Authorization and Power Management**: The app monitors and displays the Bluetooth authorization and power status, providing feedback through visual indicators.
-- **BLE Peripheral Scanning**: The app scans for and displays available BLE peripherals in real-time.
-- **User Alerts**: Alerts the user when Bluetooth is not authorized or powered on, and provides options to open the relevant settings.
+## 🟡 De-initialization
+De-initialization of a BLE manager, may not be instantaneous and can vary in duration, depending largely on ongoing BLE tasks and the specifics of Swift’s concurrency model. Tasks already in progress must be completed before resources are freed, as ongoing operations cannot be arbitrarily canceled once they have begun. This behavior is influenced not only by the internal mechanics of the BLE manager but also by the concurrency model where certain tasks, even if marked for cancellation, continue until their current actions are resolved.
 
  ![macOS 11](https://github.com/The-Igor/bluetooth-law-energy-swift/blob/main/img/ble_mac.png)  
 
