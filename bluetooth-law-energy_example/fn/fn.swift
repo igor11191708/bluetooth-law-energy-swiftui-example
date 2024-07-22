@@ -6,7 +6,8 @@
 //
 
 import Foundation
-#if os(iOS)
+
+#if os(iOS) || os(tvOS) || os(watchOS)
 import UIKit
 #elseif os(macOS)
 import AppKit
@@ -14,7 +15,7 @@ import AppKit
 
 /// Opens the Bluetooth settings.
 func openBluetoothSettings() {
-    #if os(iOS)
+    #if os(iOS) || os(tvOS) || os(watchOS)
     guard let bluetoothSettingsURL = URL(string: "App-Prefs:root=Bluetooth") else {
         return
     }
@@ -32,7 +33,7 @@ func openBluetoothSettings() {
 
 /// Opens the app settings.
 func openSettings() {
-    #if os(iOS)
+    #if os(iOS) || os(tvOS) || os(watchOS)
     guard let settingsURL = URL(string: UIApplication.openSettingsURLString) else {
         return
     }
