@@ -88,7 +88,7 @@ struct ServicesView: View {
         isEmpty = false
         do {
             /// Fetch the services and update the state variables.
-            let discoveredServices = try await manager.fetchServices(for: item, cache: cache).map { $0.uuid.uuidString }
+            let discoveredServices = try await manager.discoverServices(for: item, cache: cache).map { $0.uuid.uuidString }
             self.services = discoveredServices
             if discoveredServices.isEmpty {
                 isEmpty = true
