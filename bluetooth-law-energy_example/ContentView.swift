@@ -10,11 +10,13 @@ import Combine
 import bluetooth_law_energy_swift
 import CoreBluetooth
 
+let logger = AppleLogger(subsystem: "BluetoothLEManager", category: "Bluetooth")
+
 /// A SwiftUI view that manages Bluetooth LE operations and displays relevant information.
 struct ContentView: View {
     
     /// State object for managing Bluetooth LE operations.
-    @StateObject var manager = BluetoothLEManager()
+    @StateObject var manager = BluetoothLEManager(logger: logger)
     
     /// State variables for toggles.
     @State var isOne: Bool = true
