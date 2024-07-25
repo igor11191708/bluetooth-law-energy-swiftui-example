@@ -72,7 +72,7 @@ struct ContentView: View {
                     if isOne {
                         PeripheralsView(id: 1).padding(.top)
                     }
-                    #if os(macOS)
+                   #if os(macOS)
                     if isTwo {
                         PeripheralsView(id: 2).padding(.top)
                     }
@@ -81,7 +81,7 @@ struct ContentView: View {
                             PeripheralsView(id: item).padding(.top)
                         }
                     }
-                    #endif
+                   #endif
                 }
             }
         }

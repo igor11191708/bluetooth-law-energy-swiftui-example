@@ -1,22 +1,13 @@
 {
-  "originHash" : "0469e668405dbfef549f52cd3f8097d6fde9b0d77f90ead66242fedc3a4e8a38",
+  "originHash" : "c797487f428831856aa3f4313d550a748ca55ad73350302298eca5c85f145ae2",
   "pins" : [
-    {
-      "identity" : "bluetooth-law-energy-swift",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/The-Igor/bluetooth-law-energy-swift",
-      "state" : {
-        "branch" : "main",
-        "revision" : "e11363475fd411ddcfc19b3e34369c62e86c3168"
-      }
-    },
     {
       "identity" : "retry-policy-service",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/The-Igor/retry-policy-service.git",
       "state" : {
-        "revision" : "46ded002161a95c6b08ddd02c3f319891c773d14",
-        "version" : "1.0.0"
+        "revision" : "2a6a1f057fbf77337dfc73db98bd3d538127b3e2",
+        "version" : "1.0.1"
       }
     }
   ],
