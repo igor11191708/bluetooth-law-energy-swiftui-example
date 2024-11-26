@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/The-Igor/bluetooth-law-energy-swift",
       "state" : {
-        "revision" : "16e6f1a3b76a3be4db8714b35da2a3f143bc4989",
-        "version" : "1.0.1"
+        "revision" : "4e3f1fb2524699c4a93f96a574fa1581c3e38409",
+        "version" : "1.0.2"
       }
     },
     {
