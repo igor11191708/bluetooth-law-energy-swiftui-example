@@ -445,7 +445,7 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		78B42ECC2C52775F005E2367 /* XCRemoteSwiftPackageReference "bluetooth-law-energy-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/The-Igor/bluetooth-law-energy-swift";
+			repositoryURL = "https://github.com/igor11191708/bluetooth-law-energy-swift";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.1;
