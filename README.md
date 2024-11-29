@@ -2,7 +2,7 @@
 # Bluetooth Low Energy Service example
 
 This example project demonstrates how to use the bluetooth-law-energy-swift package to manage Bluetooth Low Energy (BLE) operations within a SwiftUI application.
-[Bluetooth Low Energy Service package](https://github.com/The-Igor/bluetooth-law-energy-swift)
+[Bluetooth Low Energy Service package](https://github.com/swiftuiux/bluetooth-law-energy-swift)
 
 ## 🟡 Running Bluetooth LE Code on Simulator
 
@@ -12,7 +12,7 @@ The example code provided for Bluetooth Low Energy (BLE) functionality utilizes 
 ## 🟡 De-initialization
 De-initialization of a BLE manager, may not be instantaneous and can vary in duration, depending largely on ongoing BLE tasks and the specifics of Swift’s concurrency model. Tasks already in progress must be completed before resources are freed, as ongoing operations cannot be arbitrarily canceled once they have begun. This behavior is influenced not only by the internal mechanics of the BLE manager but also by the concurrency model where certain tasks, even if marked for cancellation, continue until their current actions are resolved.
 
- ![macOS 11](https://github.com/The-Igor/bluetooth-law-energy-swift/blob/main/img/ble_mac.png)  
+ ![macOS 11](https://github.com/swiftuiux/bluetooth-law-energy-swift/blob/main/img/ble_mac.png)  
 
 ## Granting Bluetooth Access for macOS
 
