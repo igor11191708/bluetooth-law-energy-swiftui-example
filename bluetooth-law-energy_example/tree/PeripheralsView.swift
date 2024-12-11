@@ -2,7 +2,7 @@
 //  PeripheralsView.swift
 //  bluetooth-law-energy_example
 //
-//  Created by Igor  on 19.07.24.
+//  Created by Igor Shelopaev on 19.07.24.
 //
 
 import SwiftUI
