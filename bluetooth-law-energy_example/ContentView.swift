@@ -77,7 +77,7 @@ struct ContentView: View {
                         PeripheralsView(id: 2).padding(.top)
                     }
                     if isThree {
-                        ForEach(3..<5, id: \.self) { item in
+                        ForEach(3..<4, id: \.self) { item in
                             PeripheralsView(id: item).padding(.top)
                         }
                     }
